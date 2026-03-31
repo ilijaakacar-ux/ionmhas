@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IONMHAS Investment Limited | Stewardship of Wealth</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Cinzel:wght@400;600;700&display=swap');
+    
+    body {
+      margin: 0;
+      font-family: 'Cinzel', serif;
+      background: #0F0F0F url('https://images.unsplash.com/photo-1544967082-85c6e2c2e0c8?ixlib=rb-4.0.3&auto=format&fit=crop&q=80') fixed center/cover;
+      color: #D4AF37;
+      line-height: 1.7;
+    }
+    
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 15px; }
+    
+    header {
+      background: rgba(15,15,15,0.98);
+      border-bottom: 3px solid #D4AF37;
+      padding: 15px 0;
+      position: sticky; top: 0; z-index: 100;
+    }
+    .header-content {
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .logo {
+      display: flex; align-items: center; gap: 12px;
+      font-size: 26px; font-weight: 700; letter-spacing: 3px;
+    }
+    nav a {
+      color: #D4AF37; text-decoration: none; margin-left: 18px; font-size: 16px;
+    }
+    nav a:hover { color: #fff; }
+
+    .hero {
+      min-height: 100vh;
+      background: linear-gradient(rgba(15,15,15,0.88), rgba(15,15,15,0.88)), url('https://picsum.photos/id/1015/2000/1200') center/cover no-repeat;
+      display: flex; align-items: center; text-align: center;
+    }
+    .hero-content h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.8rem; letter-spacing: 4px; margin-bottom: 15px;
+    }
+    .hero-content p { font-size: 1.25rem; max-width: 700px; margin: 0 auto 40px; color: #eee; }
+    .cta {
+      padding: 16px 45px; background: #D4AF37; color: #0F0F0F; font-weight: bold;
+      text-decoration: none; border: 3px solid #D4AF37; font-size: 1.1rem;
+    }
+    .cta:hover { background: transparent; color: #D4AF37; }
+
+    section { padding: 90px 0; background: rgba(15,15,15,0.95); }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem; text-align: center; margin-bottom: 50px; color: #D4AF37;
+    }
+
+    .team-grid, .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+    .team-member, .service-card {
+      background: rgba(60,47,47,0.6);
+      padding: 30px 20px;
+      border: 2px solid #D4AF37;
+      text-align: center;
+    }
+    .team-member .shield { font-size: 3.5rem; margin-bottom: 15px; }
+
+    .quote {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.95rem; text-align: center; font-style: italic;
+      max-width: 850px; margin: 60px auto; padding: 50px;
+      border: 3px solid #D4AF37; background: rgba(10,61,47,0.25);
+    }
+
+    footer {
+      background: #0A3D2F; color: #D4AF37; text-align: center; padding: 40px 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container header-content">
+      <div class="logo">
+        <span style="font-size:28px;">🦅</span> IONMHAS
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#team">Team</a>
+        <a href="#services">Services</a>
+        <a href="#principles">Principles</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>IONMHAS INVESTMENT LIMITED</h1>
+      <p>Stewardship of Wealth • Responsible Sourcing of Precious Metals</p>
+      <a href="#contact" class="cta">ENGAGE WITH US</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About IONMHAS</h2>
+      <p>IONMHAS Investment Limited is dedicated to ethical sourcing and responsible stewardship of precious metals, blending disciplined governance with extensive global expertise to foster trust in every transaction.</p>
+      <p>We approach gold not merely as a transaction, but as a story of value requiring structure, traceability, and enduring trust.</p>
+    </div>
+  </section>
+
+  <section id="team">
+    <div class="container">
+      <h2>Executive Team</h2>
+      <div class="team-grid">
+        <div class="team-member"><div class="shield">🦅</div><h4>Mark Gerard Willis</h4><p>Chairman</p></div>
+        <div class="team-member"><div class="shield">🦅</div><h4>Mark Benjamin Goodman</h4><p>Vice-Chairman</p></div>
+        <div class="team-member"><div class="shield">🦅</div><h4>Zoran Jovanov</h4><p>Director</p></div>
+        <div class="team-member"><div class="shield">🦅</div><h4>Ilija Kačar</h4><p>Director</p></div>
+        <div class="team-member"><div class="shield">🦅</div><h4>Henry Mesekesa</h4><p>Director</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service-card"><h3>Gold Sourcing</h3><p>Ethical high-quality gold bullion from Zambia.</p></div>
+        <div class="service-card"><h3>Refinery Partnerships</h3><p>Seamless processing from mine to finished bullion.</p></div>
+        <div class="service-card"><h3>Logistics Coordination</h3><p>Secure global transportation of precious metals.</p></div>
+        <div class="service-card"><h3>Institutional Support</h3><p>Tailored market insights and trading advice.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact IONMHAS Investment Limited</h2>
+      <p>Lusaka, Zambia<br>(+260) 953-727480<br>@IONMHAS</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 IONMHAS Investment Limited • Stewardship of Wealth • All Rights Reserved
+  </footer>
+
+</body>
+</html>
